@@ -12,8 +12,8 @@ const Home = () => {
     return () => clearInterval(interval);
   });
   return (
-    <div className="aali_tm_section " id="home">
-      <div className="aali_tm_hero">
+    <div className="devender_tm_section " id="home">
+      <div className="devender_tm_hero">
         <div className="container">
           <div className="hero_inner">
             <div className="content">
@@ -35,7 +35,7 @@ const Home = () => {
                 </span>
               </div>
               <div className="hero_buttons">
-                <div className="aali_tm_button">
+                <div className="devender_tm_button">
                   <a className="anchor" href="#contact">
                     <span>Say Hello {msg}</span>
                   </a>
@@ -46,7 +46,7 @@ const Home = () => {
                   </a>
                 </div>
               </div>
-              <div className="aali_tm_down">
+              <div className="devender_tm_down">
                 <div className="down-icon white top_120">
                   <a className="anchor" href="#about">
                     <svg
@@ -90,7 +90,7 @@ const Home = () => {
             <div className="avatar parallax" style={{ position: "absolute" }}>
               <div className="main">
                 <img
-                  src="img\perosn\hero.png"
+                  src="img\perosn\1.png"
                   alt="image"
                   className="layer hero-height"
                   data-depth="0.1"
@@ -112,7 +112,7 @@ const Home = () => {
                 <span className="in layer" data-depth="0.3" />
               </span>
               <h3 className="stroke_text">
-                <span>Aali</span>
+                <span>devender</span>
               </h3>
             </div>
           </div>
@@ -132,7 +132,7 @@ const Home = () => {
         </div>
         <div className="hero_mail">
           <a className="line_anim" href="#">
-            hello@aali.com
+            hello@devender.com
           </a>
         </div>
       </div>

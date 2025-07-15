@@ -12,17 +12,17 @@ const Testimonial = () => {
     },
   };
   return (
-    <div className="aali_tm_section" id="testimonial">
-      <div className="aali_tm_testimonials">
+    <div className="devender_tm_section" id="testimonial">
+      <div className="devender_tm_testimonials">
         <div className="left">
           <div className="image">
-            <img src="img/hero/2.png" alt="aali image" />
+            <img src="img/perosn/3.png" alt="devender image" />
           </div>
         </div>
         <div className="right">
           <div className="right_in">
             <div
-              className="aali_tm_main_title"
+              className="devender_tm_main_title"
               data-text-align="left"
               data-color="light"
             >

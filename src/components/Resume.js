@@ -7,13 +7,13 @@ const Resume = () => {
     jarallaxContent();
   }, []);
   return (
-    <div className="aali_tm_section">
-      <div className="aali_tm_resume">
+    <div className="devender_tm_section">
+      <div className="devender_tm_resume">
         <div className="content">
           <div className="container">
             <div className="resume_in">
               <div
-                className="aali_tm_main_title"
+                className="devender_tm_main_title"
                 data-text-align="left"
                 data-color="dark"
               >
@@ -45,7 +45,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
+                              devender is a leading web design agency with an
                               award-winning design
                             </p>
                           </div>
@@ -65,7 +65,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
+                              devender is a leading web design agency with an
                               award-winning design
                             </p>
                           </div>
@@ -85,7 +85,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
+                              devender is a leading web design agency with an
                               award-winning design
                             </p>
                           </div>
@@ -112,7 +112,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
+                              devender is a leading web design agency with an
                               award-winning design
                             </p>
                           </div>
@@ -132,7 +132,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
+                              devender is a leading web design agency with an
                               award-winning design
                             </p>
                           </div>
@@ -152,7 +152,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
+                              devender is a leading web design agency with an
                               award-winning design
                             </p>
                           </div>

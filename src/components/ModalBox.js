@@ -1,6 +1,6 @@
 const ModalBox = ({ children, close }) => {
   return (
-    <div className="aali_tm_modalbox opened">
+    <div className="devender_tm_modalbox opened">
       <div className="box_inner">
         <div className="close">
           <a

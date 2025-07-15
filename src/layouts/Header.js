@@ -7,7 +7,7 @@ const Header = ({ dark }) => {
     window.addEventListener("scroll", scroll_);
   });
   return (
-    <div className="aali_tm_header">
+    <div className="devender_tm_header">
       <div className="container">
         <div className="inner">
           {dark ? (
@@ -19,10 +19,10 @@ const Header = ({ dark }) => {
           ) : (
             <div className="logo">
               <a className="light" href="#">
-                <img src="img/logo/logo.png" alt="aali image" />
+                <img src="img/logo/logo.png" alt="devender image" />
               </a>
               <a className="dark" href="#">
-                <img src="img/logo/dark.png" alt="aali image" />
+                <img src="img/logo/dark.png" alt="devender image" />
               </a>
             </div>
           )}

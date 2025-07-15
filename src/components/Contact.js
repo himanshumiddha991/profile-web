@@ -43,11 +43,11 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <div className="aali_tm_section" id="contact">
-      <div className="aali_tm_contact">
+    <div className="devender_tm_section" id="contact">
+      <div className="devender_tm_contact">
         <div className="container">
           <div
-            className="aali_tm_main_title"
+            className="devender_tm_main_title"
             data-text-align="center"
             data-color="dark"
           >
@@ -76,8 +76,8 @@ const Contact = () => {
                     {emailIcon}
                     <span>Email</span>
                     <h3>
-                      <a className="line_anim" href="mailto:hello@aali.com">
-                        hello@aali.com
+                      <a className="line_anim" href="mailto:hello@devender.com">
+                        hello@devender.com
                       </a>
                     </h3>
                   </div>
@@ -137,7 +137,7 @@ const Contact = () => {
                       value={message}
                     />
                   </div>
-                  <div className="aali_tm_button">
+                  <div className="devender_tm_button">
                     <a id="send_message" href="#" onClick={(e) => onSubmit(e)}>
                       <span>Submit Message {msgSent}</span>
                     </a>

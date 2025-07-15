@@ -49,12 +49,15 @@ const Portfolio = () => {
   // Model Box
   const [modal, setModal] = useState(0);
   return (
-    <div className="aali_tm_section help" id="portfolio">
+    <div className="devender_tm_section help" id="portfolio">
       {video && <Popup close={setVideo} content={videoContent} />}
-      <div className="aali_tm_portfolio wow fadeInUp" data-wow-duration="1s">
+      <div
+        className="devender_tm_portfolio wow fadeInUp"
+        data-wow-duration="1s"
+      >
         <div className="container">
           <div
-            className="aali_tm_main_title"
+            className="devender_tm_main_title"
             data-text-align="center"
             data-color="light"
           >
@@ -90,7 +93,7 @@ const Portfolio = () => {
               <li className="filter-item vimeo">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img src="img/thumbs/1-1.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/portfolio/1.jpg" />
                   </div>
                   <div className="overlay" />
@@ -100,7 +103,7 @@ const Portfolio = () => {
                     <h3>New Laptop</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link popup-vimeo"
+                    className="devender_tm_full_link popup-vimeo"
                     href="#"
                     onClick={() => showPopup("vimeo", "337293658")}
                   />
@@ -109,7 +112,7 @@ const Portfolio = () => {
               <li className="filter-item youtube">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img src="img/thumbs/1-1.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/portfolio/2.jpg" />
                   </div>
                   <div className="overlay" />
@@ -119,7 +122,7 @@ const Portfolio = () => {
                     <h3>Best Phone</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link popup-youtube"
+                    className="devender_tm_full_link popup-youtube"
                     href="#"
                     onClick={() => showPopup("youtube", "7e90gBu4pas")}
                   />
@@ -128,7 +131,7 @@ const Portfolio = () => {
               <li className="filter-item soundcloud">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img src="img/thumbs/1-1.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/portfolio/3.jpg" />
                   </div>
                   <div className="overlay" />
@@ -138,7 +141,7 @@ const Portfolio = () => {
                     <h3>Smart Headphone</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link soundcloude_link mfp-iframe audio"
+                    className="devender_tm_full_link soundcloude_link mfp-iframe audio"
                     href="#"
                     onClick={() => showPopup("soundcloud", "471954807")}
                   />
@@ -147,7 +150,7 @@ const Portfolio = () => {
               <li className="filter-item detail">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img src="img/thumbs/1-1.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/portfolio/4.jpg" />
                   </div>
                   <div className="overlay" />
@@ -157,7 +160,7 @@ const Portfolio = () => {
                     <h3>Hippie Sabotage</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link portfolio_popup"
+                    className="devender_tm_full_link portfolio_popup"
                     href="#"
                     onClick={() => setModal(1)}
                   />
@@ -232,7 +235,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="devender image"
                                   />
                                   <div
                                     className="main"
@@ -246,7 +249,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="devender image"
                                   />
                                   <div
                                     className="main"
@@ -260,7 +263,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="devender image"
                                   />
                                   <div
                                     className="main"
@@ -279,7 +282,7 @@ const Portfolio = () => {
               <li className="filter-item image">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img src="img/thumbs/1-1.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/portfolio/5.jpg" />
                   </div>
                   <div className="overlay" />
@@ -289,7 +292,7 @@ const Portfolio = () => {
                     <h3>Mockup Camera</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link zoom"
+                    className="devender_tm_full_link zoom"
                     href="#"
                     onClick={() => showPopup("image", "img/portfolio/5.jpg")}
                   />
@@ -298,7 +301,7 @@ const Portfolio = () => {
               <li className="filter-item detail">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img src="img/thumbs/1-1.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/portfolio/6.jpg" />
                   </div>
                   <div className="overlay" />
@@ -308,7 +311,7 @@ const Portfolio = () => {
                     <h3>Good Present</h3>
                   </div>
                   <a
-                    className="aali_tm_full_link portfolio_popup"
+                    className="devender_tm_full_link portfolio_popup"
                     href="#"
                     onClick={() => setModal(2)}
                   />
@@ -383,7 +386,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="devender image"
                                   />
                                   <div
                                     className="main"
@@ -397,7 +400,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="devender image"
                                   />
                                   <div
                                     className="main"
@@ -411,7 +414,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="devender image"
                                   />
                                   <div
                                     className="main"

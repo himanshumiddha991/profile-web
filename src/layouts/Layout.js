@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment, useEffect } from "react";
 import {
-  aali_tm_moving_animation,
+  devender_tm_moving_animation,
   aTagClick,
   dataImage,
   wowJsAnimation,
@@ -16,16 +16,16 @@ const Layout = ({ children, headName, dark }) => {
   useEffect(() => {
     dataImage();
     wowJsAnimation();
-    aali_tm_moving_animation();
+    devender_tm_moving_animation();
     aTagClick();
   });
   return (
     <Fragment>
       <Head>
-        <title>Aali | {headName ? headName : "Home"} </title>
+        <title>devender | {headName ? headName : "Home"} </title>
       </Head>
       <Preloader />
-      <div className="aali_tm_all_wrap" data-magic-cursor="show">
+      <div className="devender_tm_all_wrap" data-magic-cursor="show">
         <MobileMenu />
         <Header dark={dark} />
         {children}

@@ -6,13 +6,13 @@ const Skills = () => {
     window.addEventListener("scroll", activeSkillProgress);
   });
   return (
-    <div className="aali_tm_section" id="portfolio">
-      <div className="aali_tm_skills">
+    <div className="devender_tm_section" id="portfolio">
+      <div className="devender_tm_skills">
         <div className="container">
           <div className="skills_inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <div
-                className="aali_tm_main_title"
+                className="devender_tm_main_title"
                 data-text-align="left"
                 data-color="light"
               >
@@ -24,7 +24,7 @@ const Skills = () => {
                 <p>
                   I am working on a professional, visually sophisticated and
                   technologically proficient, responsive and multi-functional
-                  creative personal resume portfolio template Aali
+                  creative personal resume portfolio template devender
                 </p>
               </div>
             </div>

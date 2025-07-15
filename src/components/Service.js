@@ -25,15 +25,15 @@ const Service = ({ dark }) => {
     });
   }, []);
   return (
-    <div className="aali_tm_section" id="service">
-      <div className="aali_tm_service">
+    <div className="devender_tm_section" id="service">
+      <div className="devender_tm_service">
         <div className="container">
           <div className="service_list">
             <ul>
               <li className="simple wow fadeInLeft" data-wow-duration="1s">
                 <div className="list_inner">
                   <div
-                    className="aali_tm_main_title"
+                    className="devender_tm_main_title"
                     data-text-align="left"
                     data-color="dark"
                   >
@@ -69,19 +69,20 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      devender is a leading web design agency with an
+                      award-winning design team that creates innovative,
+                      effective websites{" "}
                     </p>
                   </div>
                   <a
-                    className="aali_tm_full_link"
+                    className="devender_tm_full_link"
                     href="#"
                     onClick={() => setModal(1)}
                   />
                   <img
                     className="popup_service_image"
                     src="img/service/1.jpg"
-                    alt="aali image"
+                    alt="devender image"
                   />
                 </div>
                 <div className={hidden(1)}>
@@ -102,7 +103,7 @@ const Service = ({ dark }) => {
                       </div>
                       <div className="descriptions">
                         <p>
-                          Aali is a leading web design agency with an
+                          devender is a leading web design agency with an
                           award-winning design team that creates innovative,
                           effective websites that capture your brand, improve
                           your conversion rates, and maximize your revenue to
@@ -149,26 +150,27 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      devender is a leading web design agency with an
+                      award-winning design team that creates innovative,
+                      effective websites{" "}
                     </p>
                   </div>
                   <a
-                    className="aali_tm_full_link"
+                    className="devender_tm_full_link"
                     href="#"
                     onClick={() => setModal(2)}
                   />
                   <img
                     className="popup_service_image"
                     src="img/service/3.jpg"
-                    alt="aali image"
+                    alt="devender image"
                   />
                 </div>
                 <div className={hidden(2)}>
                   <ModalBox close={setModal}>
                     <div className="service_popup_informations">
                       <div className="image">
-                        <img src="img/thumbs/4-2.jpg" alt="aali image" />
+                        <img src="img/thumbs/4-2.jpg" alt="devender image" />
                         <div
                           className="main"
                           data-img-url="img/service/3.jpg"
@@ -182,7 +184,7 @@ const Service = ({ dark }) => {
                       </div>
                       <div className="descriptions">
                         <p>
-                          Aali is a leading web design agency with an
+                          devender is a leading web design agency with an
                           award-winning design team that creates innovative,
                           effective websites that capture your brand, improve
                           your conversion rates, and maximize your revenue to
@@ -232,26 +234,27 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      devender is a leading web design agency with an
+                      award-winning design team that creates innovative,
+                      effective websites{" "}
                     </p>
                   </div>
                   <a
-                    className="aali_tm_full_link"
+                    className="devender_tm_full_link"
                     href="#"
                     onClick={() => setModal(3)}
                   />
                   <img
                     className="popup_service_image"
                     src="img/service/2.jpg"
-                    alt="aali image"
+                    alt="devender image"
                   />
                 </div>
                 <div className={hidden(3)}>
                   <ModalBox close={setModal}>
                     <div className="service_popup_informations">
                       <div className="image">
-                        <img src="img/thumbs/4-2.jpg" alt="aali image" />
+                        <img src="img/thumbs/4-2.jpg" alt="devender image" />
                         <div
                           className="main"
                           data-img-url="img/service/2.jpg"
@@ -265,7 +268,7 @@ const Service = ({ dark }) => {
                       </div>
                       <div className="descriptions">
                         <p>
-                          Aali is a leading web design agency with an
+                          devender is a leading web design agency with an
                           award-winning design team that creates innovative,
                           effective websites that capture your brand, improve
                           your conversion rates, and maximize your revenue to
@@ -311,26 +314,27 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      devender is a leading web design agency with an
+                      award-winning design team that creates innovative,
+                      effective websites{" "}
                     </p>
                   </div>
                   <a
-                    className="aali_tm_full_link"
+                    className="devender_tm_full_link"
                     href="#"
                     onClick={() => setModal(4)}
                   />
                   <img
                     className="popup_service_image"
                     src="img/service/4.jpg"
-                    alt="aali image"
+                    alt="devender image"
                   />
                 </div>
                 <div className={hidden(4)}>
                   <ModalBox close={setModal}>
                     <div className="service_popup_informations">
                       <div className="image">
-                        <img src="img/thumbs/4-2.jpg" alt="aali image" />
+                        <img src="img/thumbs/4-2.jpg" alt="devender image" />
                         <div
                           className="main"
                           data-img-url="img/service/4.jpg"
@@ -344,7 +348,7 @@ const Service = ({ dark }) => {
                       </div>
                       <div className="descriptions">
                         <p>
-                          Aali is a leading web design agency with an
+                          devender is a leading web design agency with an
                           award-winning design team that creates innovative,
                           effective websites that capture your brand, improve
                           your conversion rates, and maximize your revenue to
@@ -382,7 +386,7 @@ const Service = ({ dark }) => {
                     <div className="inner_text">
                       <h3>Do You Want Something Different?</h3>
                     </div>
-                    <div className="aali_tm_button border">
+                    <div className="devender_tm_button border">
                       <a className="anchor" href="#contact">
                         <span>Knock Me {msg}</span>
                       </a>

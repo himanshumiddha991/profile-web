@@ -1,4 +1,4 @@
-const aali_tm_preloader = () => {
+const devender_tm_preloader = () => {
   let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
     navigator.userAgent
   )
@@ -82,7 +82,7 @@ export const customCursor = () => {
 };
 
 export const preloader = () => {
-  aali_tm_preloader();
+  devender_tm_preloader();
   setTimeout(() => {
     document.querySelector("body").classList.add("opened");
   }, 1500);
@@ -91,7 +91,7 @@ export const preloader = () => {
 // Header
 export const stickyNav = () => {
   let offset = window.scrollY;
-  const stickys = document.querySelectorAll(".aali_tm_header");
+  const stickys = document.querySelectorAll(".devender_tm_header");
   stickys.forEach((sticky) => {
     if (sticky) {
       if (offset > 100) {
@@ -139,7 +139,7 @@ export const dataImage = () => {
   }
 };
 // Moveing effect
-export const aali_tm_moving_animation = () => {
+export const devender_tm_moving_animation = () => {
   var detail = document.querySelectorAll(".moving_effect");
   var offset = 0;
   detail.forEach((element) => {
@@ -185,7 +185,7 @@ export const jarallaxContent = () => {
 };
 
 export const scroll_ = () => {
-  const sections = document.querySelectorAll(".aali_tm_section");
+  const sections = document.querySelectorAll(".devender_tm_section");
   const navLi = document.querySelectorAll(".anchor_nav li");
   let current = "";
   sections.forEach((section) => {

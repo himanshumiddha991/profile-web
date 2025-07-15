@@ -5,11 +5,11 @@ const Blog = () => {
   const [modal, setModal] = useState(0);
   const hidden = (value) => (value === modal ? "" : "news_hidden_details");
   return (
-    <div className="aali_tm_section" id="blog">
-      <div className="aali_tm_news">
+    <div className="devender_tm_section" id="blog">
+      <div className="devender_tm_news">
         <div className="container">
           <div
-            className="aali_tm_main_title"
+            className="devender_tm_main_title"
             data-text-align="center"
             data-color="dark"
           >
@@ -25,10 +25,10 @@ const Blog = () => {
               <li className="wow fadeInLeft" data-wow-duration="1s">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/42-29.jpg" alt="aali image" />
+                    <img src="img/thumbs/42-29.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/news/1.jpg" />
                     <a
-                      className="aali_tm_full_link"
+                      className="devender_tm_full_link"
                       href="#"
                       onClick={() => setModal(1)}
                     />
@@ -45,7 +45,7 @@ const Blog = () => {
                     <span className="date">November 10, 2021</span>
                   </div>
                   <div className="button">
-                    <div className="aali_tm_learn_more">
+                    <div className="devender_tm_learn_more">
                       <a href="#" onClick={() => setModal(1)}>
                         Full Story
                       </a>
@@ -55,7 +55,7 @@ const Blog = () => {
                     <ModalBox close={setModal}>
                       <div className="news_popup_informations">
                         <div className="image">
-                          <img src="img/thumbs/4-2.jpg" alt="aali image" />
+                          <img src="img/thumbs/4-2.jpg" alt="devender image" />
                           <div className="main" data-img-url="img/news/1.jpg" />
                         </div>
                         <div className="details">
@@ -70,7 +70,7 @@ const Blog = () => {
                         </div>
                         <div className="text">
                           <p>
-                            Aali is a leading web design agency with an
+                            devender is a leading web design agency with an
                             award-winning design team that creates innovative,
                             effective websites that capture your brand, improve
                             your conversion rates, and maximize your revenue to
@@ -102,10 +102,10 @@ const Blog = () => {
               <li className="wow fadeInRight" data-wow-duration="1s">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/42-29.jpg" alt="aali image" />
+                    <img src="img/thumbs/42-29.jpg" alt="devender image" />
                     <div className="main" data-img-url="img/news/2.jpg" />
                     <a
-                      className="aali_tm_full_link"
+                      className="devender_tm_full_link"
                       href="#"
                       onClick={() => setModal(1)}
                     />
@@ -122,7 +122,7 @@ const Blog = () => {
                     <span className="date">October 22, 2021</span>
                   </div>
                   <div className="button">
-                    <div className="aali_tm_learn_more">
+                    <div className="devender_tm_learn_more">
                       <a href="#" onClick={() => setModal(2)}>
                         Full Story
                       </a>
@@ -132,7 +132,7 @@ const Blog = () => {
                     <ModalBox close={setModal}>
                       <div className="news_popup_informations">
                         <div className="image">
-                          <img src="img/thumbs/4-2.jpg" alt="aali image" />
+                          <img src="img/thumbs/4-2.jpg" alt="devender image" />
                           <div className="main" data-img-url="img/news/2.jpg" />
                         </div>
                         <div className="details">
@@ -149,7 +149,7 @@ const Blog = () => {
                         </div>
                         <div className="text">
                           <p>
-                            Aali is a leading web design agency with an
+                            devender is a leading web design agency with an
                             award-winning design team that creates innovative,
                             effective websites that capture your brand, improve
                             your conversion rates, and maximize your revenue to

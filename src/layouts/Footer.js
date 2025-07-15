@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <div className="aali_tm_section">
-      <div className="aali_tm_copyright">
+    <div className="devender_tm_section">
+      <div className="devender_tm_copyright">
         <div className="container">
           <div className="copyright_inner">
             <div className="top">
               <div className="logo">
-                <img src="img/logo/logo.png" alt="aali image" />
+                <img src="img/logo/logo.png" alt="devender image" />
               </div>
               <div className="social">
                 <span>Connect</span>

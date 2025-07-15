@@ -3,12 +3,12 @@ import { useState } from "react";
 const MobileMenu = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="aali_tm_mobile_menu">
+    <div className="devender_tm_mobile_menu">
       <div className="mobile_menu_inner">
         <div className="mobile_in">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/dark.png" alt="aali image" />
+              <img src="img/logo/dark.png" alt="devender image" />
             </a>
           </div>
           <div className="trigger">

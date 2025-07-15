@@ -2,8 +2,8 @@ import ReactCounter from "./ReactCounter";
 
 const Counter = () => {
   return (
-    <div className="aali_tm_section">
-      <div className="aali_tm_counter">
+    <div className="devender_tm_section">
+      <div className="devender_tm_counter">
         <div className="container">
           <div className="counter_list">
             <ul className="wow fadeIn" data-wow-duration="1s">

@@ -2,13 +2,13 @@ import { download } from "../svgImage";
 
 const About = () => {
   return (
-    <div className="aali_tm_section" id="about">
-      <div className="aali_tm_about">
+    <div className="devender_tm_section" id="about">
+      <div className="devender_tm_about">
         <div className="about_inner">
           <div className="left">
             <div className="image">
-              <img src="img/thumbs/45-49.jpg" alt="aali image" />
-              <div className="main" data-img-url="img/about/1.jpg" />
+              <img src="img/thumbs/45-49.jpg" alt="devender image" />
+              <div className="main" data-img-url="img/perosn/2.png" />
               <span
                 className="square moving_effect"
                 data-direction="y"
@@ -40,7 +40,7 @@ const About = () => {
               data-wow-delay="0.2s"
             >
               <p>
-                Hi! My name is Aali Walker. I am UI/UX designer, and {`I'm`}{" "}
+                Hi! My name is devender Walker. I am UI/UX designer, and {`I'm`}{" "}
                 very passionate and dedicated to my work.
               </p>
               <p>
@@ -50,19 +50,19 @@ const About = () => {
               </p>
             </div>
             <div
-              className="aali_tm_button wow fadeInUp"
+              className="devender_tm_button wow fadeInUp"
               data-wow-duration="1.5s"
               data-wow-delay="0.2s"
             >
-              <a href="img/cv/1.jpg" download>
+              <a href="img/cv/devender_resume.jpg" download>
                 <span>Download CV {download}</span>
               </a>
             </div>
           </div>
           <div className="right">
             <div className="image">
-              <img src="img/thumbs/41-61.jpg" alt="aali image" />
-              <div className="main" data-img-url="img/about/2.jpg" />
+              <img src="img/perosn/3.png" alt="devender image" />
+              <div className="main" data-img-url="img/perosn/3.png" />
               <div
                 className="square moving_effect"
                 data-direction="x"
